@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<Integer> integers = Arrays.asList(23, 3, 43, 12, 33, 21);
+        List<Integer> integers = null;
         QuickSort sort = new QuickSort();
         sort.sort(integers);
         System.out.println(integers);
